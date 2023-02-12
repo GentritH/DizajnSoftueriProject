@@ -1,0 +1,83 @@
+body {
+  background-color: #EAEAEA !important;
+}
+
+.ui.inverted.top.fixed.menu {
+  background-image: linear-gradient(135deg, rgb(48, 106, 214) 0%, rgb(93, 133, 243) 69%, rgb(53, 117, 255) 89%) !important;
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+/*home page styles*/
+
+.masthead {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+          135deg,
+          
+          rgb(24, 42, 115) 0%,
+          rgb(33, 138, 174) 69%,
+          rgb(32, 167, 172) 89%
+
+  ) !important;
+  height: 100vh;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+
+/*end home page styles*/
+.navbar{
+  display: flex;
+  flex-direction: column;
+ 
+  height: 100%;
+}
+
+.logonav{
+  font-size: 30px;
+}
+
+.navli{
+  font-size: 20px;
+}
+
+.stafiuser{
+position: absolute;
+right: 0.8%;
+top: 0.5%;
+}
+
+.masthead {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  /* width: 100%;  */
+  background-image: url(https://www.cloudcampuserp.com/Themes/Main/assets/img/bg02.jpg)!important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+} 
